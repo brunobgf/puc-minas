@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1631656995 source:c:\users\bruno\onedrive\documentos\folder\cstudies\treino_estcondicional2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

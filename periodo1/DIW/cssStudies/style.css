@@ -1,0 +1,51 @@
+/* Para sites é indicado que a fonte seja sans-serif, ou seja, sem as rebarbas */
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./img/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+h1 { 
+    font-size: 250%;
+}
+
+.destaque {
+    display: block;
+    width: 100%;
+}
+
+/* cada div vai ocupar 33%, porem tem uma margem de 8px de um lado para o outro, da pra fazer cálculos no css, assim a div começa a se comportar como objeto em linha */
+/* Box-sizing considerada que vai levar em conta a borda */
+/* Espaço fora da div = margin, espaçamento dentro da div = padding */
+div {
+    display: inline-block;
+    width: calc(33% - 16px);
+    background-color: rgb(156, 114, 233);
+    opacity: 0.8;
+    vertical-align: top;
+    margin: 8px;
+    padding: 10px;
+    border: 1px solid #777;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+/* Utilizando o conceito de descendencia */
+div p img { 
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+div p {
+    font-size: 10pt;
+}
+
+h2 {
+    font-style: italic;
+    color: crimson;
+    font-weight: 800;
+}
