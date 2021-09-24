@@ -1,0 +1,113 @@
+/* Definições gerais - Inicio */
+
+html{
+   height: 100%; 
+}
+
+body, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 120%;
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+/* Definições gerais - Fim */
+
+
+/* CSS Cabeçalho - Inicio */
+
+.header a{
+    text-decoration: none;
+    color: white;
+}
+
+.header{
+   background: #727272;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    list-style: none;
+    margin-left: 10px;
+}
+
+/* CSS Cabeçalho - Fim */
+
+/* CSS Rodapé - Inicio */
+
+.footer{
+    background: #727272;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+ }
+ /* CSS Rodapé - Fim */
+
+
+/* CSS Grid 1 - Inicio */
+/* Cima e embaixo margin 0, e nas laterais auto ou seja, centralizará. PADDING 10px porque o grid gap faz as imagens encostarem nas bordas */
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* Align-colums: center para que a legenda fique no meio, mas também foi colocado um grid gap para separar um pouco a legenda da img */
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-gap: 10px;
+}
+
+.banner{
+   grid-column: 3;
+   grid-row: 2 / 5; 
+}
+
+@media screen and (max-width:600px){
+
+    .grid{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* Desligar o sistema de grid do .card */
+    .card{
+        display:block;
+    }
+
+    /* Para não mostrar o 9o filho */
+    .card:nth-child(9){
+        display:none;
+    }
+/* Não mostrar o banner */
+    .banner{
+        display: none;
+     }
+}
+
+/* CSS Grid 1 - Fim */
