@@ -1,0 +1,749 @@
+    /*=======================
+Inicio Efeito sublinhado da NavBar
+=========================*/
+    
+    .nav-item {
+        position: relative;
+    }
+    
+    .navbar-collapse ul li a.nav-link:before {
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: transparent;
+        content: '';
+        opacity: 0;
+        -ms-transition: opacity 0.3s, -webkit-transform 0.3s;
+        -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+        transition: opacity 0.3s, transform 0.3s;
+        -ms-transform: translateY(10px);
+        -webkit-transform: translateY(10px);
+        transform: translateY(10px);
+    }
+    
+    .navbar-collapse ul li:hover a.nav-link:before {
+        opacity: 1;
+        -ms-transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+        bottom: 0px;
+        background: rgb(57, 14, 212);
+    }
+    
+    .dropdown-item:hover,
+    .dropdown-item:focus {
+        color: #ffffff;
+        text-decoration: none;
+        background-color: rgb(57, 14, 212);
+    }
+    
+    .dropdown-menu {
+        border: 0px;
+    }
+    /*=======================
+Fim do Efeito sublinhado da NavBar
+=========================*/
+    /*=======================
+ General styles
+=========================*/
+    
+    body,
+    html {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+        height: auto;
+        background-color: #F3F4F6;
+    }
+    /* Barra de pesquisa + icone  -Text input with search icon */
+    
+    .form-group {
+        margin-top: 1rem;
+    }
+    
+    .has-search .form-control {
+        padding-left: 7.375rem;
+    }
+    
+    .has-search .form-control-feedback {
+        position: absolute;
+        z-index: 2;
+        display: block;
+        width: 2.375rem;
+        height: 2.375rem;
+        line-height: 2.375rem;
+        text-align: center;
+        pointer-events: none;
+        color: #aaa;
+    }
+    
+    .header {
+        min-width: 100%;
+        top: 0;
+        z-index: 99;
+        position: fixed;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        background: rgb(235, 232, 232);
+        padding: 0px 0 1px;
+    }
+    /*=======================
+	About Me CSS
+=========================*/
+    
+    .card {
+        top: -1.5rem;
+        border-radius: .25rem;
+        padding: 1.2rem;
+        background-color: #fff;
+        border: 1px solid rgba(0, 0, 0, .125);
+        margin-bottom: 2rem
+    }
+    
+    .card-2 {
+        top: -1.5rem;
+        border-radius: .25rem;
+        padding: 1.2rem;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgba(0, 0, 0, .125);
+        margin-bottom: 2rem;
+        width: 100vw;
+    }
+    
+    .about-author .social-media {
+        margin-right: 1000px;
+    }
+    
+    @media (min-width:992px) {
+        .card .card-block {
+            padding: 1rem;
+        }
+    }
+    
+    @media (min-width:992px) {
+        .card .card-block-2 {
+            padding: 7rem;
+        }
+    }
+    
+    .avatar-responsive {
+        display: block;
+        max-width: 100%;
+        border-radius: 15rem;
+        height: auto;
+    }
+    
+    .fa-icon {
+        color: #000;
+        width: 32px;
+        height: 32px;
+        display: inline-block;
+        line-height: 29px;
+        font-size: 15px;
+        text-align: left;
+    }
+    
+    .fa-icon.fa-icon-2x {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 24px
+    }
+    /*=======================
+	End About Me
+=========================*/
+    
+    .menu1 {
+        position: absolute;
+        top: 40px;
+        left: 50%;
+        margin-left: -320px;
+    }
+    
+    .menu1 a {
+        color: white;
+    }
+    
+    .logo {
+        max-width: 150px;
+    }
+    
+    .banner img {
+        width: 100%;
+    }
+    
+    .img-responsive {
+        border-radius: 10px;
+    }
+    
+    .banner {
+        margin: 0px;
+    }
+    
+    .texto_principal {
+        background: #e4e3e3;
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .texto_principal h1 {
+        color: #682c14
+    }
+    /*=======================
+	Projects CSS
+=========================*/
+    /* Modificar esse card_area */
+    
+    .card_area {
+        padding: 1em;
+    }
+    /* Acessa todas as divs que estão dentro do card area */
+    
+    .card_area>div {
+        margin-bottom: 10px;
+    }
+    
+    .card_area img {
+        margin-top: 20px;
+        width: 100%;
+    }
+    
+    .infos {
+        margin-top: 20px;
+    }
+    
+    .infos h1 {
+        font-size: 1.4em;
+    }
+    
+    .grid_cor1 {
+        background: #f7f1ea;
+        padding: 20px;
+        min-height: 220px;
+        margin-bottom: 20px;
+    }
+    
+    .grid_cor1 img {
+        width: 100%;
+    }
+    
+    .title-selection {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .dropdown-menu {
+        margin-right: 1rem;
+        border: #000;
+    }
+    
+    .btn-group .dropdown-menu a {
+        padding: 10px;
+        color: rgb(10, 8, 8);
+        text-decoration: none;
+    }
+    
+    .btn-default .dropdown-menu {
+        color: #000 !important;
+    }
+    
+    .dropdown-menu li>a:hover,
+    .dropdown-menu li>a:focus {
+        display: block;
+        margin-top: 0;
+        background-color: rgb(57, 14, 212) !important;
+        color: rgb(0, 0, 0) !important;
+    }
+    
+    .caret {
+        margin-right: 50px;
+    }
+    
+    .plus-button {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 20px;
+    }
+    
+    .btn-label {
+        position: relative;
+        left: -12px;
+        display: inline-block;
+        padding: 6px 12px;
+        border-radius: 3px 0 0 3px;
+    }
+    
+    .btn-labeled {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    
+    .btn {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    /*=======================
+	End Projects CSS
+=========================*/
+    /*=======================
+	Experiences
+=========================*/
+    
+    hr {
+        border: none;
+        height: 2px;
+        background-color: rgb(57, 14, 212);
+    }
+    
+    .logoImg {
+        display: flex;
+        height: 13rem;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+    /*=======================
+	Experiences End
+=========================*/
+    /*=======================
+	Git Hub Repositories
+=========================*/
+    
+    .card-repo {
+        top: -1.8rem;
+        border-radius: .25rem;
+        padding: 1.2rem;
+        background-color: rgb(248, 130, 130);
+        border: 1px solid rgba(0, 0, 0, .125);
+        margin-bottom: 2rem;
+        margin: 0 -9999rem;
+        /* add back negative margin value */
+        padding: 0.25rem 9999rem;
+        background: rgb(57, 14, 212);
+    }
+    
+    .repository-container {
+        position: relative;
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    .row .social-buttons {
+        display: inline-block;
+    }
+    
+    .row .text-repositories {
+        display: inline-block;
+    }
+    
+    .social-buttons,
+    .text-repositories {
+        display: inline;
+    }
+    
+    .text-repositories {
+        margin-left: 20px;
+    }
+    
+    .text-repositories h5,
+    p {
+        color: rgb(0, 0, 0);
+    }
+    
+    .social-round-icon {
+        border: 1px solid #838383;
+        border-radius: 100px;
+        -webkit-transition: all .2s linear;
+        -o-transition: all .2s linear;
+        transition: all .2s linear
+    }
+    
+    .social-round-icon:hover {
+        background-color: #1708a3;
+        color: #fff;
+        border-color: #1708a3;
+    }
+    
+    .social-round-icon.white-round-icon {
+        border: 1px solid #fff;
+        color: #fff
+    }
+    
+    .social-round-icon.white-round-icon:hover {
+        background-color: #fff;
+        color: #2a08a3;
+        border-color: #fff
+    }
+    
+    .fa-icon {
+        color: #000;
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        line-height: 47px;
+        font-size: 25px;
+        text-align: center
+    }
+    
+    .fa-icon.fa-icon-2x {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 24px
+    }
+    
+    .social-buttons .social-round-icon {
+        margin-right: 10px
+    }
+    
+    .social-buttons a {
+        -webkit-transition: all .2s linear;
+        -o-transition: all .2s linear;
+        transition: all .2s linear;
+        color: #000
+    }
+    
+    .social-buttons a:hover {
+        color: #8408a3;
+        text-decoration: none
+    }
+    
+    .social-buttons a:hover .social-round-icon {
+        background-color: #8408a3;
+        color: #fff;
+        border-color: #8408a3
+    }
+    /*=======================
+	GitHub Repositories End
+=========================*/
+    /*=======================
+ Youtube Recommendations
+=========================*/
+    
+    .responsive-rec {
+        padding: 4vw;
+    }
+    
+    .responsive-rec .plus-button {
+        display: block;
+        margin-left: 650px;
+    }
+    /* Acessa todas as divs que estão dentro do card area */
+    
+    .card_area_rec>div {
+        padding-top: 20px;
+    }
+    
+    .card_area_rec iframe {
+        margin-top: 10vw;
+        margin: 0 auto;
+        width: 24vw;
+    }
+    
+    .responsive-rec .division {
+        height: 2px;
+        background-color: rgb(57, 14, 212);
+    }
+    /*=======================
+  Youtube Recommendations End
+=========================*/
+    /*=======================
+  Footer CSS
+=========================*/
+    
+    #footer {
+        background: rgb(235, 232, 232);
+        padding: 15px 0 10px;
+        text-align: center;
+        position: relative;
+    }
+    
+    #footer .footer-responsive {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #footer .copyright {
+        padding: 8px 0;
+        text-align: left;
+    }
+    
+    #footer .copyright p {
+        color: rgb(2, 4, 36);
+        margin: 0;
+        display: flex;
+        align-items: center;
+    }
+    
+    #footer .copyright span {
+        margin: 0px 5px;
+    }
+    
+    #footer .social {
+        text-align: right;
+    }
+    
+    #footer .social img {
+        margin-right: 15px;
+        display: inline;
+        height: 4vw;
+    }
+    
+    #footer .social li a {
+        display: block;
+    }
+    /*=======================
+  End Footer
+=========================*/
+    
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+        .author-responsive .author-name h2 {
+            font-size: 8vw;
+        }
+        .author-responsive .author-name p {
+            margin-top: 20px;
+            font-size: 5.1vw;
+            display: inline;
+            text-align: justify;
+        }
+        .author-responsive .author-name h4 {
+            margin-top: 20px;
+        }
+        .avatar-flex {
+            display: flex;
+            justify-content: center;
+        }
+        .logoWrapper {
+            display: flex;
+            justify-content: center;
+        }
+        .avatar-responsive {
+            border-radius: 20rem;
+            height: 15rem;
+            margin-top: 20px;
+            margin-right: 20px;
+            margin: 0 auto;
+        }
+        .title-selection {
+            display: flex;
+            flex-direction: column;
+        }
+        .projects-title h2 {
+            font-size: 10vw;
+            margin-left: 10px;
+        }
+        .btn-group .dropdown-toggle {
+            display: flex;
+            justify-content: flex-start;
+        }
+        .exp-infos h2 {
+            font-size: 10vw;
+        }
+        .exp-infos h4 {
+            font-size: 8vw;
+        }
+        .exp-infos p {
+            display: inline;
+            font-size: 6vw;
+        }
+        .repository-container h5 {
+            font-size: 8vw;
+        }
+        .repository-container p {
+            display: inline;
+            font-size: 7vw;
+        }
+        .repository-container .social-buttons {
+            display: none;
+        }
+        .repo-responsive .title-selection h2 {
+            margin-top: 20px;
+            font-size: 9vw;
+        }
+        .repo-responsive .plus-button {
+            margin-bottom: 20px;
+        }
+        .responsive-rec h2 {
+            display: inline;
+            font-size: 10vw;
+            margin: 0 auto;
+        }
+        .responsive-rec .h5 {
+            display: inline;
+            font-size: 8vw;
+        }
+        .responsive-rec p {
+            font-size: 5vw;
+        }
+        .responsive-rec .rec-informations {
+            display: flex;
+            flex-direction: column;
+        }
+        .responsive-rec iframe {
+            position: relative;
+            padding: 14vw;
+            top: 0;
+            right: 0;
+            right: 15vw;
+            width: 100%;
+            height: 300px;
+        }
+        .responsive-rec .plus-button {
+            position: relative;
+            top: 0;
+            min-width: 100px;
+            margin-left: 150px;
+            font-size: 12vw;
+        }
+        .copyright p {
+            position: absolute;
+            display: inline-block;
+            font-size: 4vw;
+            margin: 0 auto;
+        }
+        .copyright p>strong {
+            margin-right: 80px;
+        }
+        .social p {
+            display: none;
+        }
+    }
+    
+    @media screen and (min-device-width: 481px) and (max-device-width:650px) {
+        .copyright p {
+            display: inline;
+            font-size: 3vw;
+        }
+        .social p {
+            display: none;
+        }
+    }
+    
+    @media screen and (max-width: 699px) {
+        .avatar-flex {
+            display: flex;
+            justify-content: center;
+        }
+        .author-name h2 {
+            font-size: 7vw;
+        }
+        .author-name p {
+            font-size: 4vw;
+            display: inline;
+        }
+        .author-name h4 {
+            font-size: 6vw;
+        }
+        .author-name {
+            margin-top: 20px;
+        }
+        .author-name strong {
+            display: none;
+        }
+        .logoImg {
+            height: 13rem;
+            margin-top: 20px;
+        }
+        .header {
+            /* background-position: 0px -100px; */
+        }
+        .card_area_rec iframe,
+        h3,
+        p {
+            /* margin-bottom: 7rem; */
+            width: 400px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+        }
+        .responsive-rec {
+            width: 22vw;
+        }
+    }
+    
+    @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+        /* your css rules for ipad portrait */
+        .responsive-rec .plus-button {
+            display: none;
+        }
+        .responsive-rec iframe {
+            position: relative;
+            padding: 1vw;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 300px;
+        }
+    }
+    
+    @media screen and (min-width:700px) and (max-width: 779) {
+        .avatar-responsive {
+            border-radius: 30rem;
+            height: 20rem;
+            margin: 0 auto;
+        }
+        .logoImg {
+            border-radius: 30rem;
+            height: 20rem;
+            margin-top: 20px;
+            margin: 0 auto;
+        }
+        .responsive-rec {
+            width: 20vw;
+        }
+        .responsive-rec iframe {
+            position: relative;
+            padding: 18vw;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 300px;
+        }
+        .responsive-rec .plus-button {
+            display: none;
+        }
+    }
+    
+    @media screen and (min-width:770px) and (max-width:980px) {
+        .avatar-responsive {
+            border-radius: 30rem;
+            height: 10rem;
+            margin: 0 auto;
+        }
+        .logoImg {
+            height: 13rem;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+        .responsive-rec {}
+    }
+    
+    @media screen and (min-width:981px) and (max-width: 1100px) {
+        .avatar-responsive {
+            border-radius: 30rem;
+            height: 12rem;
+            margin: 0 auto;
+        }
+        .logoImg {
+            height: 13rem;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+    }
+    
+    .main {
+        margin-top: 140px;
+    }
+    
+    .menu-icon i {
+        font-size: 1.7em;
+    }
