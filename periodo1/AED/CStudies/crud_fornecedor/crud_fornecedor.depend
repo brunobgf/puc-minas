@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1638881776 source:c:\users\bruno\onedrive\documentos\folder\cstudies\crud_fornecedor\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<time.h>
+	<locale.h>
+

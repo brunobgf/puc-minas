@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1638992076 source:c:\users\bruno\onedrive\documentos\folder\cstudies\teste_biblioteca_crud_2\b_menus.c
+	"b_menus.h"
+	"b_funcionarios.h"
+
+1638992282 c:\users\bruno\onedrive\documentos\folder\cstudies\teste_biblioteca_crud_2\b_menus.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<time.h>
+	<locale.h>
+
+1638992178 c:\users\bruno\onedrive\documentos\folder\cstudies\teste_biblioteca_crud_2\b_funcionarios.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<time.h>
+	<locale.h>
+
+1638992186 source:c:\users\bruno\onedrive\documentos\folder\cstudies\teste_biblioteca_crud_2\b_funcionarios.c
+	"b_funcionarios.h"
+	"b_menus.h"
+
+1638992208 source:c:\users\bruno\onedrive\documentos\folder\cstudies\teste_biblioteca_crud_2\main.c
+	"b_funcionarios.h"
+	"b_menus.h"
+

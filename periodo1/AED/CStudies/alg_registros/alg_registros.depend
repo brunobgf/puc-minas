@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1638556429 source:c:\users\bruno\onedrive\documentos\folder\cstudies\alg_registros\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<locale.h>
+

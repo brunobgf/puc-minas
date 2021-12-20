@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1637198214 source:c:\users\bruno\onedrive\documentos\folder\cstudies\arranjo_ex\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

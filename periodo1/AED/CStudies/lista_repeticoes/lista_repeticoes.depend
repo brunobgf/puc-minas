@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1634044762 source:c:\users\bruno\onedrive\documentos\folder\cstudies\lista_repeticoes\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<math.h>
+	<time.h>
+
+1634044762 source:c:\users\bruno\onedrive\documentos\folder\puc-minas\periodo1\aed\cstudies\lista_repeticoes\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<math.h>
+	<time.h>
+

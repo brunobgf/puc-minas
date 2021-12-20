@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1637009541 source:c:\users\bruno\onedrive\documentos\folder\cstudies\vetores_atv4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

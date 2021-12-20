@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1639698098 source:c:\temp\q2\main.cpp
+	<string>
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	<locale.h>
+

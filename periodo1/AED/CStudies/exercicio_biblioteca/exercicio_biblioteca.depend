@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1635459143 source:c:\users\bruno\onedrive\documentos\folder\cstudies\exercicio_biblioteca\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	"mb_bruno.h"
+
+1635459239 c:\users\bruno\onedrive\documentos\folder\cstudies\exercicio_biblioteca\mb_bruno.h
+
+1635459183 source:c:\users\bruno\onedrive\documentos\folder\cstudies\exercicio_biblioteca\mb_bruno.c
+	"mb_bruno.h"
+
+1637712698 source:c:\users\bruno\onedrive\documentos\folder\puc-minas\periodo1\aed\cstudies\exercicio_biblioteca\main.c
+	"mb_bruno.h"
+
+1637712289 c:\users\bruno\onedrive\documentos\folder\puc-minas\periodo1\aed\cstudies\exercicio_biblioteca\mb_bruno.h
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
+1637712633 source:c:\users\bruno\onedrive\documentos\folder\puc-minas\periodo1\aed\cstudies\exercicio_biblioteca\mb_bruno.c
+	"mb_bruno.h"
+

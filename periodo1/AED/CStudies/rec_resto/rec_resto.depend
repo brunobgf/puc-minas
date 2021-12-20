@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1636495695 source:c:\users\bruno\onedrive\documentos\folder\cstudies\rec_resto\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

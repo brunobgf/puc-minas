@@ -406,7 +406,6 @@ void ex06()
 
     denominador = input;
     numerador = 1;
-    fracao = 1/denominador;
 
     while(counter<input)
     {
@@ -660,7 +659,7 @@ void ex10()
         {
             if(input=='<')
             {
-                max = guess-1;
+                max = guess;
                 guess = (max+min)/2;
                 printf("%d",guess);
             }

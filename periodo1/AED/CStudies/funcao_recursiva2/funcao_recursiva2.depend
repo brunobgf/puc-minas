@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1637966672 source:c:\users\bruno\onedrive\documentos\folder\cstudies\funcao_recursiva2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1638654599 source:c:\users\bruno\onedrive\documentos\folder\crud_system\crud_system\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<locale.h>
+
+1638654599 source:c:\users\bruno\onedrive\documentos\folder\crud_system\funcionarios\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<locale.h>
+
+1638879031 source:c:\users\bruno\onedrive\documentos\folder\cstudies\funcionarios\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<time.h>
+	<locale.h>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1637273430 source:c:\users\bruno\onedrive\documentos\folder\cstudies\exercicio_vetores\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<time.h>
+
